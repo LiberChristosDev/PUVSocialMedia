@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'LORE';
+        src: url('https://drive.google.com/uc?export=view&id=1qEH6Jpo3FSgw2kKKtmR3qZdj_rcqkTWb') format('woff');
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 800px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('https://drive.google.com/uc?id=1YuNvIetZvcPMOK8HBiSZPPbsuKGixh2T&export=download');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 40px 0;
+        box-sizing: border-box;
+      }
+
+      .logo {
+        width: 75px;
+        height: auto;
+      }
+
+      .middle-text,
+      .bottom-text {
+        font-family: 'LORE';
+        font-size: 36px;
+        color: #CCCCCC;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Row: Logo -->
+      <img src="{{logo_url}}" class="logo" alt="Logo" />
+
+      <!-- Middle Row: Text -->
+      <div class="middle-text">Test middle text</div>
+
+      <!-- Bottom Row: Text -->
+      <div class="bottom-text">Test bottom text</div>
+    </div>
+  </body>
+</html>
